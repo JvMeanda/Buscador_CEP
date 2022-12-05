@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="./search.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de CEP</title>
+</head>
+
+<body>
+
+    <div class="container_body">
+
+        <h1 class="title">Buscador de CEP</h1>
+
+        <div class="container_cep">
+
+            <div class="search_cep">
+                <span class="digite_cep">CEP:</span>
+                <input type="text" name="cep" class="cep_input" placeholder="xxxxx-xxx">
+                <button class="search_btn">
+                    <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                </button>
+
+            </div>
+
+            <div class="container_info">
+
+                <span class="cep"></span><br>
+                <span class="cidade"></span><br>
+                <span class="estado"></span><br>
+                <span class="bairro"></span><br>
+                <span class="rua"></span><br>
+                <span class="ddd"></span><br>
+                <span class="erro"></span><br>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./document.js"></script>
+</body>
+
+</html>
